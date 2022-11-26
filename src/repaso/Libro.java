@@ -52,10 +52,10 @@ public class Libro{
     }
 
         public void mostrarLibro(){
-            System.out.println("el libro " +nombrelibro+ " fue escrito por " +autorlibro)
+            System.out.println("el libro " +nombrelibro+ " fue escrito por " +autorlibro);
         }
         public void mostrarLibro(String nombrelibro, String autorlibro){
-        System.out.println("el libro " +nombrelibro+ " fue escrito por " +autorlibro)
+        System.out.println("el libro " +nombrelibro+ " fue escrito por " +autorlibro);
         }
 
     }

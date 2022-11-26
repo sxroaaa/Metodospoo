@@ -30,6 +30,6 @@ public class Inicio {
     datos.mostrarDatos();
 
     Persona datos2=new Persona(55);
-    datos.mostrarDatos(55);
+    datos.mostrarDatos();
  }
 }
