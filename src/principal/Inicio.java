@@ -1,13 +1,15 @@
 package principal;
 
+import Salud.Empleado;
 import Salud.Persona;
 
 public class Inicio {
     public static void main(String[] args) {
         Persona Datos=new Persona ();
-
+        Empleado objeto=new Empleado();
         Datos.pedirDatos();
         Datos.mostrarPersona();
+        
         
     //reto2
         String resultado = Datos.calcularImc();
@@ -25,11 +27,14 @@ public class Inicio {
     System.out.println();
     Persona datos=new Persona("Salome", "cedula", 18);
 
-    System.out.println();
+    
 
     datos.mostrarDatos();
 
     Persona datos2=new Persona(55);
     datos.mostrarDatos();
+
+  
+    
  }
 }

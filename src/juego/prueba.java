@@ -6,6 +6,11 @@ public class prueba {
         juego1.iniciar();
         juego1.jugar();
         juego1.finalizar();
+
+        Reto5 juego2=new Reto5();
+        juego2.iniciar();
+        juego2.jugar();
+        juego2.finalizar();
     }
    
 
